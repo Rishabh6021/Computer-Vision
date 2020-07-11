@@ -20,3 +20,9 @@ git status
 
 Adds changes in the working directory to the staging area
 git add
+
+Pushes changes from the local master branch to the remote master branch
+git push origin master
+
+Views the changes you made relative to the index (staging area for the next commit)
+git diff <filename>
