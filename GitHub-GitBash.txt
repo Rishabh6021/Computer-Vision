@@ -26,3 +26,6 @@ git push origin master
 
 Views the changes you made relative to the index (staging area for the next commit)
 git diff <filename>
+
+Forces the log tool display all commits
+git log --all
