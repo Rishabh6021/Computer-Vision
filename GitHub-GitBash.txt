@@ -1,0 +1,22 @@
+# How to operate between local repo and Github repo through GitBash
+
+To check git version
+git --version 
+
+Present working directory 
+pwd
+
+Display long list and hidden files
+ls -la
+
+Clone in local repo 
+git clone <repository link> <local folder for repo>
+
+Clear git bash screen
+Ctrl+L
+
+State of the working directory and the staging area
+git status
+
+Adds changes in the working directory to the staging area
+git add
