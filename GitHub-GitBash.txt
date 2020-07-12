@@ -21,6 +21,9 @@ git status
 Adds changes in the working directory to the staging area
 git add
 
+Record changes to the repository
+git commit -m <msg>
+
 Pushes changes from the local master branch to the remote master branch
 git push origin master
 
@@ -31,4 +34,4 @@ Forces the log tool display all commits
 git log --all
 
 Switch branches or restore working tree files
-git checkout <file-name>
+git checkout <hashcode for change tree>
